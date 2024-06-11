@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #01523c;
+}
+
+header{
+    background-image: linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)), url(imagenes2/Ocsgtt.jpeg);
+    height:600px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: cover;
+}
+
+header {
+    background-color: #83fae6;
+    color: #fff;
+    padding: 300px 0;
+    text-align: center;
+}
+
+header .menu a{
+    font-size:18px;
+    font-family: 'lato';
+    font-weight: 300;
+    display: inline-block;
+    padding:10px 0;
+    margin:0 15px;
+    color:#ffc0e5;
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-size: 100px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#contenido {
+    margin: 20px;
+}
+
+.article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(241, 197, 252, 0.992);
+}
+
+.article h2 {
+    color: #932e9cfa;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.clear {
+    clear: both;
+}
+
+#entrevistas {
+    margin: 20px;
+}
+
+.entrevista {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.entrevista h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.persona {
+    margin-bottom: 40px;
+}
+
+.persona img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 110px;
+}
+
+.persona h3 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.persona p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 0px;
+}
+
+.ejemplos-trabajo img {
+    width: 300px; 
+    margin-right: 0px;
+    border-radius: 0px;
+}
+
+.ejemplos-trabajo img:last-child {
+    margin-right: 0; 
+}
+
+footer {
+    background-color: #f5cccc;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
